@@ -14,8 +14,8 @@ class Data:
     planet_radius: float = 0.0
 
 def main():
-    data_directory = '/Users/princekumar/Machine Learning/Moon_crater_detection/Data/Images'  # path to your data directory
-    output_directory = '/Users/princekumar/Machine Learning/Moon_crater_detection/Data/Output'  # path to your desired output directory
+    data_directory = '/User/Local/Project/Input'  # path to your data directory
+    output_directory = '/User/Local/Project/Output'  # path to your desired output directory
     
     # Ensure the output directory exists
     if not os.path.exists(output_directory):
