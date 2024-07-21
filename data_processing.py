@@ -88,4 +88,4 @@ def main_processing(path, output_directory, model):
     return transfer_files() # Transfers the final files to the desired locations 
 
 
-main_processing('/Users/princekumar/Machine Learning/Moon_crater_detection/Data/Images', '/Users/princekumar/Machine Learning/Moon_crater_detection/Data/Output', Moon_model.model_moon)
+main_processing('/User/Local/Project/Input', '/User/Local/Project/Output', Moon_model.model_moon)
